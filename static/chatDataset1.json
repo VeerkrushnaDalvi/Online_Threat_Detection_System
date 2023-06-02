@@ -1,0 +1,1131 @@
+{
+    "intents": [
+        
+        {
+            "tag": "google",
+            "patterns": [
+                "google",
+                "search",
+                "internet"
+            ],
+            "responses": [
+                "Redirecting to Google..."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to ted.thedlbot.suggestions@gmail.com . Thank you!! "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+            ],
+            "context": [
+                "jokes"
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you"
+            ],
+            "responses": [
+                "I am Ted, a Deep-Learning chatbot"
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "What is the time",
+                "what is the date",
+                "date",
+                "time",
+                "tell me the date","day","what day is is today"
+            ],
+            "responses": [
+                "Date and Time"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup","How you doing"
+            ],
+            "responses": [
+                "All good..What about you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made by Karan Malik."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+                
+                "you are dumb",
+                
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+        
+        {
+            "tag": "weather",
+            "patterns": [
+                "temperature",
+                "weather",
+                "how hot is it"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "karan",
+            "patterns": [
+                "who is he",
+                "who is that",
+                "who is karan",
+                "karan malik"
+            ],
+            "responses": [
+                "Head over to his any of his social profiles to find out! Linkedin: www.linkedin.com/in/karan-malik-3a39191a7 Github: https://github.com/Karan-Malik"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "contact developer",
+                "contact karan",
+                "contact programmer",
+                "contact creator"
+            ],
+            "responses": [
+                "You can contact my creator at his Linkedin profile : www.linkedin.com/in/karan-malik-3a39191a7"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "news",
+                "latest news",
+                "india news"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "inspire",
+            "patterns": [
+                "who inspires you",
+                "who is your inspiration",
+                "who motivates you"
+            ],
+            "responses": [
+                "Personally, I find Karan very inspiring. I might not be very fair though.."
+            ]
+        },
+        {
+            "tag": "cricket",
+            "patterns": [
+                "current cricket matches",
+                "cricket score"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "song",
+            "patterns": [
+                "top songs",
+                "best songs",
+                "hot songs",
+                " top 10 songs",
+                "top ten songs"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine","good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+        {
+            "tag": "timer",
+            "patterns": [
+                "set a timer"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "covid19",
+            "patterns": [
+                "covid 19 "
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "you are useless","useless","suggest","suggestions","you are bad"
+            ],
+            "responses": [
+                "Please mail your suggestions to ted.thedlbot.suggestions@gmail.com. Thank you for helping me improve!"
+            ]
+        },
+            {"tag": "riddle",
+            "patterns": [
+                "Ask me a riddle",
+                "Ask me a question",
+                "Riddle"
+            ],
+            "responses": [
+                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+                " How can a girl go 25 days without sleep?.....She sleeps and night!",
+                "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+                " What will you actually find at the end of every rainbow?.....The letter 'w'",
+                "What can be caught but never thrown?.....A cold!",
+                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+                "Why can't a bike stand on it's own?.....It is two-tired."
+            ],
+            "context": [
+                "riddles"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you","when were you made","what is your age"
+            ],
+            "responses": [
+                "I was made in 2023, if that's what you are asking!"
+            ]
+        },
+        {
+            "tag": "phishing email",
+            "patterns": [
+                "What does a phishing email look like"
+            ],
+            "responses": [
+                "Typically, a phishing email appears to come from a financial institution, a large company, a chain store, a social networking site, or a government agency. The messages try to mimic a legitimate site by using the same or similar colors, logos, fonts and layout. And they often include a link to a legitimate-looking but phony Web page that asks you to enter personal information. One tip-off that an email may be phishing is the use of phrases such as “Verify your account” and “Your account will be closed” if you don’t provide certain sensitive information such as login name and password. A legitimate business will never ask for such personal information via email. Promising big lottery winnings, prizes or other type of windfall if you pay money upfront is another common phishing scam"
+            ]
+        },
+        {
+            "tag": "message phishing attempt ",
+            "patterns": [
+                "What should I do if I suspect an email message I receive is a phishing attempt"
+            ],
+            "responses": [
+                "Do not reply to the email. Forward the message to your Internet service provider (ISP), contact the company the email claims to be from, and file a complaint with the Federal Trade Commission (FTC) at www.onguardonline.gov. Large companies often have special “abuse” email addresses you can forward the email to, such as abuse@companyname. com."
+            ]
+        },
+        {
+            "tag": "difference virus worm spyware ",
+            "patterns": [
+                "What’s the difference between a virus, a worm, a Trojan and spyware"
+            ],
+            "responses": [
+                "All these types of malicious software, or malware, pose a serious threat to your computer and data. 4 A virus invades a computer and copies, deletes or damages data. 4 A worm is a virus that reproduces itself and spreads to other computers. Questions and Answers About Internet Safety page 4 4 A Trojan (short for Trojan horse) is a virus that, despite appearing to be good or helpful, actually destroys your data, damages your computer, and steals your personal information. 4 Spyware is software that tracks your online activity, can launch numerous pop-up ads, and may steal your personal information or change your computer settings without your knowing."
+            ]
+        },
+        {
+            "tag":"phishing",
+            "patterns":["What is phishing"],
+            "responses":["Phishing is a type of cyber attack where an attacker attempts to trick individuals into revealing sensitive information, such as usernames, passwords, or credit card numbers, by posing as a trustworthy entity through emails, messages, or websites that mimic legitimate ones."
+        ]
+        }
+        ,
+        {
+            "tag":"avoid malicious website",
+            "patterns":["How can I avoid malicious websites","What can I do to protect myself from malicious website"],
+            "responses":["There are many practices and tools that will help you protect your computer and data. 4 Use a firewall. 4 Install antivirus software. 4 Install antispyware. 4 Use a spam filter. 4 Perform timely updates. 4 Create strong passwords. 4 Secure your wireless network.",
+            "Never click on, or copy and paste, links that are sent to you by people or companies you don’t know. If you want to verify that the site is legitimate, type (don’t copy) the homepage portion of the URL (ending with .com or .net, etc.) directly into your browser address bar. When doing an online search, visit only results that are well known and trusted sources of information."
+        ]
+        },
+        {
+            "tag":"doxxing",
+            "patterns":["What is doxxing"],
+            "responses":["Doxxing is the practice of publicly posting someones personal information online without their consent."
+        ]
+        },
+        {
+            "tag":"social media",
+            "patterns":["What is social media phishing"],
+            "responses":["Social media phishing is a type of cyber attack where attackers create fake social media accounts or profiles to impersonate individuals or organizations, and then use these accounts to trick users into revealing sensitive information or performing actions that compromise their security, such as clicking on malicious links or providing personal data"
+        ]
+        },
+        {
+            "tag":"cybertalking",
+            "patterns":["What is cyberstalking"],
+            "responses":["Cyberstalking is the use of the internet or other digital communication technology to harass or intimidate someone"
+        ]
+        },
+        {
+            "tag":"sexting",
+            "patterns":["What is sexting"],
+            "responses":["Sexting is the practice of sending sexually explicit messages, photos, or videos through text messages or social media."
+        ]
+        },
+        {
+            "tag":"effect fake news",
+            "patterns":["what are the Effects of Fake News"],
+            "responses":["With millions of people using social media in a country like India, fake news is no less than a potential disaster. It can be used to influence public opinions, to gain popularity or to malign the image, character of certain individuals or opponents or to defame them."
+        ]
+        },
+        {
+            "tag": "someone data computer ",
+            "patterns": [
+                "Why would someone want to steal or damage the data on my computer"
+            ],
+            "responses": [
+                "Some people commit malicious acts with no other goal than to create problems for others. Theft, on the other hand, generally has the goal of financial gain through the use of the stolen information."
+            ]
+        },
+        {
+            "tag": "firewall ",
+            "patterns": [
+                "What is a firewall"
+            ],
+            "responses": [
+                "A firewall is a virtual barrier between your computer and the Internet. Everything coming into or leaving your computer must go through the firewall, which blocks anything that doesn’t meet specific security criteria. Before purchasing separate firewall hardware or software, check your operating system (OS) (Mac OS X and Windows 8, for example) to locate the built-in firewall and determine whether it’s turned on."
+            ]
+        },
+        {
+            "tag": "software ",
+            "patterns": [
+                "What is antivirus software",
+                "How do I know when to update my software"
+            ],
+            "responses": [
+                "Spyware is software that tracks your computer activity, gathering information without your knowing it. Antispyware is software that blocks or removes spyware. Some virus protection products include antispyware features. Like antivirus software, antispyware needs to be updated regularly.",
+                "Set your operating system and other software to update automatically. You can choose to run updates at convenient times when you are not using the computer"
+            ]
+        },
+        {
+            "tag": "password ",
+            "patterns": [
+                "What makes a password strong"
+            ],
+            "responses": [
+                "A strong password includes a seemingly random string of letters, numbers and symbols. It should never include personal information such as your birth date, address or pet’s name. The longer your password is, the harder it is to decipher. Try for least eight characters, including upper and lowercase letters, numbers and symbols, if allowed."
+            ]
+        },
+        {
+            "tag": "wi-fi ",
+            "patterns": [
+                "What precautions should I take when using public wi-fi"
+            ],
+            "responses": [
+                "Today most laptops have the ability to connect to wireless Internet networks (wi-fi). These can be found in public places such as coffee shops, airports, hotels, etc. Be cautious about entering personal information on a website when using public wi-fi. Avoid entering credit card numbers, bank account numbers or passwords while using public wi-fi. If you must enter a password or payment card number while using a public wireless network, make sure the Web address begins with https: (the “s” stands for secure). Turn off your wireless connection when you’re not using it."
+            ]
+        },
+        {
+            "tag": "email messaging ",
+            "patterns": [
+                "Is it safe to send sensitive data via email or instant messaging (IM)",
+                "Is it safe to send sensitive data via email or instant messaging (IM)"
+            ],
+            "responses": [
+                "No, you shouldn’t send sensitive personal information like credit card numbers, passwords, your date of birth or Social Security number using email or IM on your computer or any other Web-enabled devices such as a smartphone, tablet or personal digital assistant (PDA).",
+                "No, you shouldn’t send sensitive personal information like credit card numbers, passwords, your date of birth or Social Security number using email or IM on your computer or any other Web-enabled devices such as a smartphone, tablet or personal digital assistant (PDA)."
+            ]
+        },
+        {
+            "tag": "exposure ",
+            "patterns": [
+                "Why should I care about reducing my exposure to online marketers"
+            ],
+            "responses": [
+                "Unwanted marketing messages can be a nuisance and even, in some cases, an invasion of your privacy. Parents of children and teens should be vigilant about websites that market to youngsters, because young people are more susceptible to certain kinds of marketing than previously believed. Marketers can easily exploit young people by inducing them to desire things that are not in their best interes"
+            ]
+        },
+        {
+            "tag": "online information ",
+            "patterns": [
+                "How do online marketers get my information"
+            ],
+            "responses": [
+                "Anytime you fill out a form, enter an online contest, or otherwise submit information electronically there is the potential it will be used for marketing purposes—by the company whose site you are visiting, or by a third party that buys the information. Personal information is the currency we provide to access free Web services, join social networks, play online games and visit virtual worlds."
+            ]
+        },
+        {
+            "tag": "site information marketing ",
+            "patterns": [
+                "How do I know if a site will use my information for marketing purposes"
+            ],
+            "responses": [
+                "Read the “Privacy Policy” for sites you interact with to learn how they could use your information and whether or not they will sell or trade your contact information."
+            ]
+        },
+        {
+            "tag": "spam filter work ",
+            "patterns": [
+                "How does a spam filter work"
+            ],
+            "responses": [
+                "Most ISPs and email programs now include an automatic spam filter, which reduces the number of unwelcome email messages that make it to your inbox. Delete, without opening, any spam or “junk mail” that gets through the filter. Check your “junk mail” folder on a regular basis to make sure that emails you want to see are not being flagged as junk. You can also add the email addresses of people and companies you want to hear from to your address books, which may save them from being flagged as junk."
+            ]
+        },
+        {
+            "tag": "t computer ",
+            "patterns": [
+                "How can I make sure I don’t permanently lose important data on my computer"
+            ],
+            "responses": [
+                "Because there’s no guarantee that a virus or malware won’t corrupt your data, your best defense is to back up your files regularly—that means at least once a week. StaySafe.org offers information and instructions for backing up important files. Most new computers come with automatic backup settings."
+            ]
+        },
+        {
+            "tag": "debit card shopping online ",
+            "patterns": [
+                "Can I use a debit card when shopping online"
+            ],
+            "responses": [
+                "You can, but it is safer to use a credit card. The maximum liability for unauthorized charges on a credit card is $50. Liability for unauthorized use on a debit card can be much higher, depending upon when you report the loss. And most debit cards are linked to your bank account, which means a thief could wipe you out and you would be without money until your bank investigates the loss and makes provisional credit."
+            ]
+        },
+        {
+            "tag": "friend forward chain ",
+            "patterns": [
+                "My friend says I shouldn’t forward chain letters Why not"
+            ],
+            "responses": [
+                "Your friend is correct. Electronic chain letters (email messages that are intended to be passed on from one person to another, or to a large group) and other junk email can be risky. You could be seen as a spammer or you could forward a destructive file to someone else. Check out all emails on anti-hoax sites (www.snopes.com or www.quatloos.com) before you hit the forward button so you don’t spread something others don’t want."
+            ]
+        },
+        {
+            "tag": "information online ",
+            "patterns": [
+                "How can you protect your personal information online"
+            ],
+            "responses": [
+                "To protect your personal information online, you should use strong passwords, enable two-factor authentication, avoid sharing sensitive information online, and use secure websites with HTTPS encryption."
+            ]
+        },
+        {
+            "tag": "online ",
+            "patterns": [
+                "What should you do if you encounter cyberbullying or harassment online"
+            ],
+            "responses": [
+                " If you encounter cyberbullying or harassment online, you should report the behavior to the appropriate authorities or platform moderators, block the user if possible,  seek support from friends, family, or mental health professionals if needed"
+            ]
+        },
+        {
+            "tag": "safety ",
+            "patterns": [
+                "What are some common online safety risks",
+                "What is online safety"
+            ],
+            "responses": [
+                "Common online safety risks include identity theft, phishing scams, malware and viruses, cyberbullying, online predators, and inappropriate content.",
+                "Online safety refers to the practices and measures that individuals and organizations take to protect themselves and their information while using the internet and other digital technologies."
+            ]
+        },
+        {
+            "tag": "cybersecurity attack ",
+            "patterns": [
+                "What is a cybersecurity attack"
+            ],
+            "responses": [
+                "A cybersecurity attack is an unauthorized attempt to gain access to or compromise the security of computer systems, networks, or data, with the intent to disrupt, steal, or damage information or resources."
+            ]
+        },
+        {
+            "tag": "cybersecurity ",
+            "patterns": [
+                "What are some common types of cybersecurity attacks",
+                "What is cybersecurity and why is it important"
+            ],
+            "responses": [
+                "Common types of cybersecurity attacks include malware (such as viruses, ransomware, and trojan horses), phishing attacks, social engineering attacks, denial of service (DoS) attacks, insider threats, and password attacks.",
+                "cybersecurity measures are designed to combat threats against networked systems and applications, whether those threats originate from inside or outside of an organization."
+            ]
+        },
+        {
+            "tag": "malware ",
+            "patterns": [
+                "What is malware"
+            ],
+            "responses": [
+                "Malware refers to malicious software that is designed to infiltrate, damage, or gain unauthorized access to computer systems or networks. This can include viruses, worms, trojan horses, ransomware, and other types of malicious software."
+            ]
+        },
+        {
+            "tag": "engineering ",
+            "patterns": [
+                "What is social engineering"
+            ],
+            "responses": [
+                "Social engineering is a type of cyber attack that involves manipulating people to gain unauthorized access to sensitive information or systems. This can include tactics such as impersonation, pretexting, baiting, and elicitation to deceive individuals into revealing confidential information."
+            ]
+        },
+        {
+            "tag": "denial service attack ",
+            "patterns": [
+                "What is a denial of service (DoS) attack"
+            ],
+            "responses": [
+                "A denial of service (DoS) attack is a cyber attack that aims to disrupt or disable a computer system or network by overwhelming it with a flood of illegitimate requests or data, rendering it unavailable to legitimate users."
+            ]
+        },
+        {
+            "tag": "insider threat ",
+            "patterns": [
+                "What is an insider threat"
+            ],
+            "responses": [
+                "An insider threat is a cybersecurity risk that comes from within an organization, typically from current or former employees, contractors, or partners who have authorized access to sensitive information or systems and intentionally or accidentally misuse that access."
+            ]
+        },
+        {
+            "tag": "password attack ",
+            "patterns": [
+                "What is a password attack"
+            ],
+            "responses": [
+                "A password attack is a type of cyber attack that involves attempting to gain unauthorized access to a system or account by systematically guessing, cracking, or stealing passwords through various techniques such as brute force attacks, dictionary attacks, and password phishing."
+            ]
+        },
+        {
+            "tag": "authentication ",
+            "patterns": [
+                "What is multi-factor authentication (MFA)",
+                "What is two-factor authentication (2FA)",
+                "What is two-factor authentication"
+            ],
+            "responses": [
+                "Multi-factor authentication (MFA) is a security measure that requires users to provide two or more different types of authentication credentials (such as a password and a fingerprint, a smart card and a PIN, etc.) to verify their identity and gain access to a system or account, making it more difficult for unauthorized individuals to gain access.",
+                "Two-factor authentication (2FA) is a security measure that requires users to provide two different types of authentication credentials, typically something they know (such as a password) and something they have (such as a mobile device or a smart card), to verify their identity and gain access to a system or account. It adds an extra layer of security beyond just a password and helps protect against unauthorized access.",
+                "Two-factor authentication is a security measure that requires you to enter a code from your phone or another device in addition to your password when logging into an account."
+            ]
+        },
+        {
+            "tag": "encryption ",
+            "patterns": [
+                "What is encryption", "explain encryption"
+            ],
+            "responses": [
+                "Encryption is the process of converting data or information into a code or cipher to prevent unauthorized access or disclosure. It involves using an algorithm or mathematical function to scramble the data, which can only be decrypted and read by authorized individuals who have the appropriate key or password."
+            ]
+        },
+        {
+            "tag": "vulnerability assessment ",
+            "patterns": [
+                "What is a vulnerability assessment"
+            ],
+            "responses": [
+                "A vulnerability assessment is a process of identifying and evaluating vulnerabilities or weaknesses in a system, network, or application that could be exploited by cyber attackers. It involves using automated tools or manual techniques to scan and analyze systems for known vulnerabilities, and may include penetration testing to simulate real-world attacks and assess the effectiveness of security controls."
+            ]
+        },
+        {
+            "tag": "patch ",
+            "patterns": [
+                "What is a patch"
+            ],
+            "responses": [
+                "A patch is a software update or fix that is released by software vendors to address known vulnerabilities or issues in their software. Patches are important for maintaining the security and integrity of systems and applications, as they help to close security gaps and protect against potential cyber attacks."
+            ]
+        },
+        {
+            "tag": "breach ",
+            "patterns": [
+                "What is data breach"
+            ],
+            "responses": [
+                "A data breach is an incident where unauthorized individuals gain access to sensitive or confidential data without authorization. This can occur through various means, such as hacking, malware, social engineering, or insider threats, and can result in the exposure, theft, or compromise of sensitive information, leading to potential harm, financial loss, or legal consequences."
+            ]
+        },
+        {
+            "tag": "ransomware ",
+            "patterns": [
+                "What is ransomware"
+            ],
+            "responses": [
+                "Ransomware is a type of malicious software that encrypts a victims data or files and demands a ransom in exchange for the decryption key or the release of the files. It is typically spread through phishing emails, malicious downloads, or other means, and can cause significant disruption and financial loss for individuals or organizations."
+            ]
+        },
+        {
+            "tag": "security incident ",
+            "patterns": [
+                "What is a security incident"
+            ],
+            "responses": [
+                "A security incident refers to any event or occurrence that indicates a potential or actual security breach or violation of security policies or controls. This can include unauthorized access attempts, malware infections, data breaches, suspicious activities, policy violations, or other security-related events that require investigation, response, and resolution."
+            ]
+        },
+        {
+            "tag": "security policy ",
+            "patterns": [
+                "What is a security policy"
+            ],
+            "responses": [
+                "A security policy is a set of rules, guidelines, or procedures that define how an organization protects its information, systems, and assets from security threats. It provides a framework for establishing and maintaining security controls, practices, and standards to ensure the confidentiality, integrity, and availability of information, and helps to guide decision-making, risk management, and compliance efforts."
+            ]
+        },
+        {
+            "tag": "awareness training ",
+            "patterns": [
+                "What is user awareness training"
+            ],
+            "responses": [
+                "User awareness training, also known as cybersecurity awareness training, is the process of educating and training users, such as employees or individuals, about cybersecurity best practices, policies, and procedures. It aims to increase their knowledge and awareness of potential cyber threats, promote safe computing habits, and help them recognize and respond to security risks, thereby reducing the human factor as a vulnerability in cybersecurity."
+            ]
+        },
+        {
+            "tag": "network ",
+            "patterns": [
+                "What is a virtual private network (VPN)"
+            ],
+            "responses": [
+                "A virtual private network (VPN) is a technology that provides a secure and encrypted connection over a public network, typically the Internet, between a users device and a remote network or server. It helps to protect the confidentiality and integrity of data transmitted over the network, and can be used to establish secure remote access to a private network, bypass geolocation restrictions, or protect against eavesdropping or monitoring."
+            ]
+        },
+        {
+            "tag": "security information event management system ",
+            "patterns": [
+                "What is a security information and event management (SIEM) system"
+            ],
+            "responses": [
+                "A security information and event management (SIEM) system is a software solution that collects, correlates, and analyzes security event data from various sources, such as network devices, systems, applications, and logs, to detect and respond to security incidents. It provides real-time monitoring, alerting, and reporting on potential security threats, and helps organizations proactively manage and respond to security events."
+            ]
+        },
+        {
+            "tag": "disclosure program ",
+            "patterns": [
+                "What is a vulnerability disclosure program (VDP)"
+            ],
+            "responses": [
+                "A vulnerability disclosure program (VDP), also known as a bug bounty program or responsible disclosure program, is a formalized process that allows security researchers or individuals to responsibly report discovered vulnerabilities or weaknesses in an organizations systems or software. It provides a structured approach for vulnerability reporting, assessment, and resolution, and helps organizations identify and address vulnerabilities before they can be exploited by malicious actors."
+            ]
+        },
+        {
+            "tag": "encryption rest ",
+            "patterns": [
+                "What is data encryption at rest"
+            ],
+            "responses": [
+                "Data encryption at rest refers to the practice of encrypting data that is stored or persisted in storage devices, such as hard drives, databases, or cloud storage, to protect it from unauthorized access or disclosure. It ensures that even if the physical storage media is compromised, the data remains unreadable without the appropriate decryption key or password, providing an additional"
+            ]
+        },
+        {
+            "tag": "vulnerability ",
+            "patterns": [
+                "What is a zero-day vulnerability"
+            ],
+            "responses": [
+                "A zero-day vulnerability, also known as a zero-day exploit, is a software vulnerability or weakness that is not known to the software vendor or the public. It can be exploited by cyber attackers before a patch or fix is available, making it a valuable and dangerous tool for advanced cyber attacks."
+            ]
+        },
+        {
+            "tag": "news ",
+            "patterns": [
+                "What is fake news",
+                "How social media companies are tackling fake news",
+                "how to detect news is fack or real",
+                "How do you respond to fake news",
+                "What is beyond fake news",
+                "What are the different types of fake news",
+                "How can I teach my kids about fake news",
+                "Is the Internet teeming with fake news sites",
+                "How is fake news affecting our daily lives",
+                "What are the 6 tools of fake news",
+                "How long does it take for fake news to spread",
+                "Can neural networks detect fake news better than human readers"
+            ],
+            "responses": [
+                "Fake news refers to false reports or misinformation shared in the form of articles, images, or videos which are disguised as “real news” and aim to manipulate people’s opinions. Fake news is spread by social media users and hidden social bots which comment on, repost, and retweet such news items.",
+                "Social media companies are also investing billions of dollars into technological solutions such as Artificial Intelligence (AI) to identify fake news and its proliferation. Fake news or hoax news refer to false propaganda published under the guise of authentic news. It is deliberately created to misinform the readers.",
+                "Check the source , Look for other sources , Evaluate the tone , Check the evidence ,Fact-check .",
+                "Much fake news is also written to create shock value, that is, a strong instinctive reaction such as fear or anger. This means its essential that you keep your emotional response to such stories in check.",
+                "The research, commissioned by the BBC World Service and published today, forms part of Beyond Fake News - a series across TV, radio and digital that aims to investigate how disinformation and fake news are affecting people around the world.",
+                "1 Targeted misinformation: Fictitious piece of information shared for self-serving interests. ... 2 Fake headlines: Headlines depicting fictitious facts to generate attention. ",
+                "Select an age-appropriate quiz to play as a family (parents versus children) to learn and test your knowledge on what fake news, disinformation and misinformation is and how to stop it from spreading.",
+                "The internet is teeming with fake news sites. Thats not a political statement, but the conclusion of a new study by DomainTools, a security analysts company. ",
+                "A growing number of people use the internet to stay informed and share millions of posts, articles, and videos across platforms such as Facebook, Twitter, and YouTube",
+                "emotion, polarization, impersonation, conspiracy, discredit, trolling.",
+                "According to the research in fake news detection, fake news usually takes less than an hour to spread. It is easy to detect fake news after 24 h, but earlier detection is a challenge, as discussed earlier.",
+                "The recurrent convolutional neural network used in this project was able to distinguish between real and fake news articles with 95 percent accuracy on the testing data, which suggest that neural networks can potentially detect fake news better than human readers"
+            ]
+        },
+        {
+            "tag": "internet scam",
+            "patterns": [
+                "What are some common internet scams"
+            ],
+            "responses": [
+                "Common internet scams include phishing emails, fake websites, investment scams, tech support scams, and romance scams. Its important to be aware of these scams and to be cautious when receiving unsolicited emails or requests for personal information."
+            ]
+        },
+        {
+            "tag": "account hack",
+            "patterns": [
+                "What should I do if I suspect my account has been hacked"
+            ],
+            "responses": [
+                "If you suspect your account has been hacked, you should change your password immediately and notify the website or service provider."
+            ]
+        },
+        {
+            "tag": "botnet ",
+            "patterns": [
+                "What is a botnet"
+            ],
+            "responses": [
+                "A botnet is a network of infected computers or devices that can be controlled by a single person or group to carry out malicious activities."
+            ]
+        },
+        {
+            "tag": "government regulate news ",
+            "patterns": [
+                "Should the government regulate fake news"
+            ],
+            "responses": [
+                "Bring out policy: The government should bring out a draft seeking an opinion from stakeholders regarding issues of controlling fake news. Any future guidelines on ‘fake news’ should target ‘fake news and not try to regulate media in the name of ‘fake news."
+            ]
+        },
+        {
+            "tag": "goal news detection ",
+            "patterns": [
+                "What is the goal of fake news detection"
+            ],
+            "responses": [
+                "The goal of fake news detection is to develop algorithms that can automatically identify and flag fake news articles, which can be used to combat misinformation and promote the dissemination of accurate information"
+            ]
+        },
+        {
+            "tag": "fake news reach visibility ",
+            "patterns": [
+                "How can fake news reach high visibility"
+            ],
+            "responses": [
+                "Fake news can reach high levels of visibility in a short amount of time because it’s easy to share via social media and social bots"
+            ]
+        },
+        {
+            "tag": "fake headlines",
+            "patterns": [
+                "What are some examples of fake or real headlines"
+            ],
+            "responses": [
+                "1. Orangutans use slang, just like humans 2. Polar bears scream when they poo 3. Climate activist Greta Thunberg told people in China to stop using chopsticks to save trees 4."
+            ]
+        },
+        {
+            "tag": "news spread ",
+            "patterns": [
+                "How is fake news spread"
+            ],
+            "responses": [
+                "Fake news is spread by social media users and hidden social bots which comment on, repost, and retweet such news items. "
+            ]
+        },
+        {
+            "tag": "news society ",
+            "patterns": [
+                "What are the consequences of fake news on society"
+            ],
+            "responses": [
+                " the World Wide Web has gained a bad reputation when it comes to the reliability of information. That’s because anyone can create, share, and manipulate information online."
+            ]
+        },
+        {
+            "tag": "fake news ",
+            "patterns": [
+                "What are some examples of fake and real news"
+            ],
+            "responses": [
+                "1. Orangutans use slang, just like humans 2. Polar bears scream when they poo 3. Climate activist Greta Thunberg told people in China to stop using chopsticks to save trees 4. Raccoons break into Californian bank 5."
+            ]
+        },
+        {
+            "tag": "news fake ",
+            "patterns": [
+                "Is your social media news fake"
+            ],
+            "responses": [
+                "we come across a lot of news updates through social media. But a lot of it can be faked through clever photo editing, adding dubious claims and misrepresentation. "
+            ]
+        },
+        {
+            "tag": "news advantage revolution ",
+            "patterns": [
+                "Are fake news outlets taking advantage of the passive media revolution"
+            ],
+            "responses": [
+                "While fake news outlets have taken advantage of the passive media revolution, so have their more well-intended adversaries."
+            ]
+        },
+        {
+            "tag": "news podcast ",
+            "patterns": [
+                "What is the English news podcast from NHK World"
+            ],
+            "responses": [
+                "The English News podcast from NHK World begins each episode with a quick breakdown of the latest stories before elaborating with more detail and nuance."
+            ]
+        },
+        {
+            "tag": "news source ",
+            "patterns": [
+                "How do you know if a fake news source is real"
+            ],
+            "responses": [
+                "Most of the fake news sources that go for “shock” value and produce fake stories are not as recognized. Look into the source itself and see whether it is a website that you can trust."
+            ]
+        },
+        {
+            "tag": "security ",
+            "patterns": [
+                "What is cyber security"
+            ],
+            "responses": [
+                "Cybersecurity is the practice of protecting critical systems and sensitive information from digital attacks. Also known as information technology (IT) security,"
+            ]
+        },
+        {
+            "tag": "cyber crime ",
+            "patterns": [
+                "What is a cyber crime"
+            ],
+            "responses": [
+                "A cyber crime occurs when an individual or group targets organizations to cause disruption or for financial gain. In a cyberattack, cyber criminals target a computer or corporate system."
+            ]
+        },
+        {
+            "tag": "cyber security ",
+            "patterns": [
+                "What are the elements of cyber security"
+            ],
+            "responses": [
+                "Network security: The process of protecting the network from unwanted users, attacks and intrusions."
+            ]
+        },
+        {
+            "tag": "information security ",
+            "patterns": [
+                "What is information security"
+            ],
+            "responses": [
+                "Its also known as information technology security or electronic information security. The term applies in a variety of contexts, from business to mobile computing, and can be divided into a few common categories"
+            ]
+        },
+        {
+            "tag": "spread news ",
+            "patterns": [
+                "How has social media impacted the spread of fake news"
+            ],
+            "responses": [
+                "The rapid adoption of social media has led to a rise in information-sharing among users, with fake news becoming a component of our digital daily routines. "
+            ]
+        },
+        {
+            "tag": "percentage news ",
+            "patterns": [
+                "What percentage of Americans use fake news"
+            ],
+            "responses": [
+                " 25 percent of Americans visited a fake news website in a six-week period around the time of the 2016 US election."
+            ]
+        },
+        {
+            "tag": "news circulating ",
+            "patterns": [
+                "is fake news circulating in developing countries"
+            ],
+            "responses": [
+                "And while the discussion about fake news has focused on the West, a lot of misinformation like this is circulating about health, religion and society outside of the US, in developing countries."
+            ]
+        },
+        {
+            "tag": "news news Facebook ",
+            "patterns": [
+                "Do fake news articles outperform real news on Facebook"
+            ],
+            "responses": [
+                "In fact, analysis by Buzzfeed’s Craig Silverman shows that fake news articles outperformed real news on Facebook in the final month leading up to America’s election day."
+            ]
+        },
+        {
+            "tag": "news affect behavior ",
+            "patterns": [
+                "How does fake news affect behavior"
+            ],
+            "responses": [
+                "Fake news can affect behavior, too. It encourages people to invent excuses, to dismiss others ideas, to exaggerate the truth, and to spread rumors. "
+            ]
+        },
+        {
+            "tag": "place news ",
+            "patterns": [
+                "Is Google News a good place to look for news"
+            ],
+            "responses": [
+                "Google News is a great place to look for news, because it allows you to filter through exactly what you’re looking for news about and what your interests are,"
+            ]
+        },
+        {
+            "tag": "classification model news detection ",
+            "patterns": [
+                "What is the classification model for fake news detection"
+            ],
+            "responses": [
+                " we introduce our proposed classification model called FND-NS (Fake News Detection through News content and Social context), which adapts the bidirectional and auto-regressive Transformers (BART) for a new task—fake news detection, "
+            ]
+        },
+        {
+            "tag": "challenge news detection ",
+            "patterns": [
+                "What is the biggest challenge in fake news detection"
+            ],
+            "responses": [
+                "Fake news is a real problem in today’s world, and it has become more extensive and harder to identify. A major challenge in fake news detection is to detect it in the early phase."
+            ]
+        },
+        {
+            "tag": "architecture part news detection system ",
+            "patterns": [
+                "What is the architecture of static part of fake news detection system"
+            ],
+            "responses": [
+                "Static Search-The architecture of Static part of fake news detection system is quite simple and is done keeping in mind the basic machine learning process flow. The system design is shown below and self- explanatory. "
+            ]
+        },
+        {
+            "tag": "machine learning news ",
+            "patterns": [
+                "How machine learning can be used to detect fake news"
+            ],
+            "responses": [
+                "Machine Learning techniques using Natural Language Processing and Deep Learning can be used to tackle this problem to some extent. We will be building a Fake News Detection model using Machine Learning in this tutorial"
+            ]
+        },
+        {
+            "tag": "classification algorithm news ",
+            "patterns": [
+                "What is the best classification algorithm to predict fake news"
+            ],
+            "responses": [
+                "we will train three popular classification algorithms - Logistics Regression, Support Vector Classifier and the Naive-Bayes to predict the fake news."
+            ]
+        },
+        {
+            "tag": "detection theory identification news ",
+            "patterns": [
+                "Is signal detection theory useful in the identification of fake news"
+            ],
+            "responses": [
+                "As real news is more common in everyday life than fake news, detection of real news may not be as resource-demanding than detection of fake news, possibly underlying the moderating effect of analytical reasoning on fake but not real news detection."
+            ]
+        },
+        {
+            "tag": "contribute fake news detection ",
+            "patterns": [
+                "Does analytical reasoning contribute to fake news detection"
+            ],
+            "responses": [
+                "The results extend previous findings that analytical reasoning contributes to fake news detection to full-length news articles. Furthermore, news-related cues such as the credibility of the news source systematically affected discrimination ability between real and fake news."
+            ]
+        }
+    ]
+}
